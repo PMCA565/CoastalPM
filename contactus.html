@@ -59,10 +59,10 @@
       property="og:description"
       content="Get in touch with Coastal Property Management for dedicated property management, construction, and landscaping services in Saint John, New Brunswick."
     />
-    <meta property="og:url" content="http://www.coastalpm.ca/contactus.html" />
+    <meta property="og:url" content="https://www.coastalpm.ca/contactus.html" />
     <meta
       property="og:image"
-      content="http://www.coastalpm.ca/images/contact-banner.png"
+      content="https://www.coastalpm.ca/images/contact-banner.png"
     />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -118,45 +118,23 @@
           <section>
             <div class="content">
               <h1>Contact Coastal Property Management</h1>
-              <p>
-                Please fill out the form below with your contact information and
-                a brief message detailing your inquiry. Our team will review
-                your submission and get back to you as promptly as possible.
-              </p>
             </div>
             <div class="contact-section">
               <div class="contact-form">
-                <form
-                  action="https://forms.office.com/Pages/ResponsePage.aspx?id=jDc2nRajekGiv63Gb6gIokA-KwhxZ2BItZikivGlYWNUQkNDNlNGMkg0Wjk5RDdRMUo2RlgyWFFCWC4u"
-                  method="POST"
-                >
-                  <div class="form-wrapper">
-                    <div class="form-group">
-                      <label for="name">Name:</label>
-                      <input type="text" id="name" name="name" required />
-                    </div>
-                    <div class="form-group">
-                      <label for="email">Email:</label>
-                      <input type="email" id="email" name="email" required />
-                    </div>
-                    <div class="form-group">
-                      <label for="phone">Phone (optional):</label>
-                      <input type="tel" id="phone" name="phone" />
-                    </div>
-                    <div class="form-group full-width">
-                      <label for="message">Message:</label>
-                      <textarea
-                        id="message"
-                        name="message"
-                        rows="4"
-                        required
-                      ></textarea>
-                    </div>
-                    <div class="form-group full-width">
-                      <input type="submit" value="Send Message" />
-                    </div>
-                  </div>
-                </form>
+                <!-- Embed Office Forms iframe -->
+                <iframe
+                  width="640px"
+                  height="900px"
+                  src="https://forms.office.com/Pages/ResponsePage.aspx?id=jDc2nRajekGiv63Gb6gIokA-KwhxZ2BItZikivGlYWNUQkNDNlNGMkg0Wjk5RDdRMUo2RlgyWFFCWC4u&embed=true"
+                  frameborder="0"
+                  marginwidth="0"
+                  marginheight="0"
+                  style="border: none; max-width: 100%; max-height: 300vh"
+                  allowfullscreen
+                  webkitallowfullscreen
+                  mozallowfullscreen
+                  msallowfullscreen
+                ></iframe>
                 <p>
                   Thank you for choosing Coastal Property Management. We look
                   forward to serving you!
@@ -168,9 +146,7 @@
                     src="images/placeholders/reflection-1519135_640.webp"
                     alt="Geodesic reflection"
                   />
-                  <span class="image-caption"
-                    >We handle projects of all scales!</span
-                  >
+                  <span class="image-caption">We handle projects of all scales!</span>
                 </div>
               </div>
             </div>
@@ -190,22 +166,22 @@
                 </a>
               </li>
               <li>
-                <a href="about.html">
-                  <i class="fa fa-info-circle" aria-hidden="true"></i> About Us
-                </a>
-              </li>
-              <li>
                 <a href="services.html">
                   <i class="fa fa-cogs" aria-hidden="true"></i> Services
                 </a>
               </li>
               <li>
                 <a
-                  href="http://www.coastalpropertymanagementgb.managebuilding.com/Resident/rental-application/new"
+                  href="https://www.coastalpropertymanagementgb.managebuilding.com/Resident/rental-application/new"
                   target="_blank"
                 >
                   <i class="fa fa-file-alt" aria-hidden="true"></i> Rental
                   Application
+                </a>
+              </li>
+              <li>
+                <a href="about.html">
+                  <i class="fa fa-info-circle" aria-hidden="true"></i> About Us
                 </a>
               </li>
               <li>
@@ -216,17 +192,17 @@
             </ul>
             <div class="sidebar-buttons">
               <a href="Buildium Client"
-                ><button class="sidebar-button">
+                ><!-- <button class="sidebar-button">
                   <i class="fa fa-user" aria-hidden="true"></i> Client Login
                 </button></a
               >
               <a
-                href="http://www.coastalpropertymanagementgb.managebuilding.com/Resident/portal"
+                href="https://www.coastalpropertymanagementgb.managebuilding.com/Resident/portal"
                 target="_blank"
-                ><button class="sidebar-button">
+                ><!--<button class="sidebar-button">
                   <i class="fa fa-sign-in-alt" aria-hidden="true"></i> Tenant
                   Login
-                </button></a
+                </button>--></a
               >
             </div>
           </nav>
@@ -250,7 +226,7 @@
               </li>
               <li class="icon solid fa-home">Grand Bay-Westfield</li>
               <li class="icon solid fa-wrench">
-                Also serving Saint John, Rothesay and Quispamsis
+                Also serving Saint John, Rothesay, Quispamsis
               </li>
             </ul>
           </section>
@@ -277,6 +253,5 @@
         document.body.classList.add("fade-in");
       });
     </script>
-<script src="/assets/js/animations.js"></script>
   </body>
 </html>
